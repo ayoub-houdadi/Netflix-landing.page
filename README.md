@@ -17,7 +17,7 @@ Eine einfache, statische Nachbildung der Netflix-Startseite, erstellt mit **HTML
 
 ## 📷 Vorschau
 
-![Vorschau](./screenshot.png)
+(https://github.com/ayoub-houdadi/Netflix-landing.page/tree/4bf5563fe465c5d9020611e63e0e41cc27a86b1f/images)
 
 ## 📁 Projektstruktur
 ```plaintext
