@@ -1,0 +1,124 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e50914;
+    padding: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  .carte {
+    width: 30px;
+  }
+  
+  /* Main Content */
+  main.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    min-height: calc(100vh - 100px);
+    background: radial-gradient(circle at top, #ffcccc, #ffdada);
+  }
+  
+  /* Text Section */
+  .element {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+  
+  /* Image Section */
+  .movie img.photo {
+    max-height: 300px;
+    width: auto;
+    border-radius: 8px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    main.content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .element, .movie {
+      max-width: 100%;
+    }
+  
+    .movie img.photo {
+      max-width: 90%;
+    }
+  
+    form {
+      justify-content: center;
+    }
+  }
+  
